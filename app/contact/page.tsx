@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | SolisGrid Energy",
-  description: "Request a solar consultation or on-site assessment.",
+  title: "Contact | N.I Solar Energy",
+  description: "Planifiez une consultation solaire avec assistance arabe et française.",
 };
 
 export default function ContactPage() {
@@ -10,11 +10,11 @@ export default function ContactPage() {
     <section className="mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-24">
       <div className="grid gap-12 rounded-3xl border border-white/50 bg-white/80 p-8 shadow-xl shadow-amber-100 md:grid-cols-2">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Talk to our team</p>
-          <h1 className="mt-3 text-4xl font-semibold text-slate-900">Schedule a solar consultation</h1>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Contactez notre studio</p>
+          <h1 className="mt-3 text-4xl font-semibold text-slate-900">Planifiez une consultation solaire</h1>
           <p className="mt-4 text-slate-600">
-            We respond to every submission within one business day. Bring your recent utility bill or load profile, and
-            we’ll tailor a system design that maximizes production and incentives.
+            Réponse sous 24h ouvrées. Nous parlons العربية و français afin de faciliter le partage de vos besoins : facture
+            d’électricité, profil de charge, objectif de mise en service et contraintes de toiture.
           </p>
           <dl className="mt-8 space-y-6">
             <div>
@@ -23,7 +23,7 @@ export default function ContactPage() {
             </div>
             <div>
               <dt className="text-sm uppercase text-slate-500">Email</dt>
-              <dd className="text-lg font-semibold text-slate-900">hello@solisgrid.energy</dd>
+              <dd className="text-lg font-semibold text-slate-900">bonjour@nisolar.energy</dd>
             </div>
             <div>
               <dt className="text-sm uppercase text-slate-500">Studio</dt>
@@ -38,13 +38,13 @@ export default function ContactPage() {
         <form className="space-y-6">
           <div>
             <label htmlFor="name" className="text-sm font-semibold text-slate-700">
-              Full Name
+              Nom complet
             </label>
             <input
               id="name"
               name="name"
               className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="Jane Doe"
+              placeholder="Ex. Jana Amrani"
             />
           </div>
           <div>
@@ -56,12 +56,12 @@ export default function ContactPage() {
               name="email"
               type="email"
               className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="jane@company.com"
+              placeholder="client@entreprise.com"
             />
           </div>
           <div>
             <label htmlFor="phone" className="text-sm font-semibold text-slate-700">
-              Phone
+              Téléphone
             </label>
             <input
               id="phone"
@@ -72,21 +72,22 @@ export default function ContactPage() {
           </div>
           <div>
             <label htmlFor="message" className="text-sm font-semibold text-slate-700">
-              Project Details
+              Détails du projet / تفاصيل المشروع
             </label>
             <textarea
               id="message"
               name="message"
               rows={4}
               className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="Roof type, monthly usage, target go-live…"
+              placeholder="Type de toit, usage mensuel, date cible..."
             />
           </div>
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">العربية • Français</p>
           <button
             type="submit"
             className="w-full rounded-2xl bg-amber-500 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-amber-200/70 transition hover:bg-amber-600"
           >
-            Send Request
+            Envoyer la demande
           </button>
         </form>
       </div>

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import ServiceCard from "@/components/ServiceCard";
 
 export const metadata: Metadata = {
-  title: "Services | SolisGrid Energy",
-  description: "Solar panel design, installation, storage, and maintenance services.",
+  title: "Services | N.I Solar Energy",
+  description: "Ingénierie solaire, stockage et maintenance avec assistance arabe et française.",
 };
 
 const serviceCatalog = [
@@ -49,11 +49,11 @@ export default function ServicesPage() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 md:px-6 md:py-24">
       <div className="max-w-3xl space-y-4">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Our expertise</p>
-        <h1 className="text-4xl font-semibold text-slate-900">Full-service solar delivery</h1>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Notre expertise</p>
+        <h1 className="text-4xl font-semibold text-slate-900">Livraison solaire clé en main</h1>
         <p className="text-lg text-slate-600">
-          From feasibility through long-term performance management, SolisGrid is the partner of choice for forward-thinking
-          property owners. Every engagement is led by NABCEP-certified engineers, project managers, and master electricians.
+          De l’étude de faisabilité à la gestion de performance, N.I Solar Energy accompagne ses clients en arabe et en français.
+          Chaque projet est dirigé par des ingénieurs, chefs de projet et maîtres électriciens certifiés NABCEP.
         </p>
       </div>
       <div className="mt-12 grid gap-6 md:grid-cols-2">

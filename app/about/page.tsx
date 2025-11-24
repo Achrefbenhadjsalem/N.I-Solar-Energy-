@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | SolisGrid Energy",
-  description: "Learn about our mission, leadership, values, and approach to solar energy.",
+  title: "À propos | N.I Solar Energy",
+  description: "Découvrez notre mission, nos valeurs et notre approche bilingue de l’énergie solaire.",
 };
 
 const values = [
@@ -24,16 +24,16 @@ export default function AboutPage() {
   return (
     <section className="mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-24">
       <div className="space-y-6">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Our story</p>
-        <h1 className="text-4xl font-semibold text-slate-900">A solar studio focused on human-centered energy</h1>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-500">Notre histoire</p>
+        <h1 className="text-4xl font-semibold text-slate-900">Un studio solaire centré sur l’humain</h1>
         <p className="text-lg text-slate-600">
-          SolisGrid Energy launched in 2014 when a collective of electrical engineers, architects, and project managers
-          wanted a more thoughtful approach to solar. Today we operate across the West Coast delivering custom systems
-          for single-family homes, boutique hotels, production studios, and civic campuses.
+          N.I Solar Energy est née en 2014 lorsque des ingénieurs électriciens, architectes et chefs de projet ont imaginé
+          une approche plus sensible du solaire. Nous opérons aujourd’hui sur la côte Ouest et en Afrique du Nord avec des
+          systèmes sur mesure pour les maisons, hôtels-boutiques, studios de production et campus publics.
         </p>
         <p className="text-lg text-slate-600">
-          We are NABCEP-certified, OSHA-30 trained, and members of SEIA. Every install is backed by a 25-year performance
-          guarantee and remote monitoring so our clients have total peace of mind.
+          Nous sommes certifiés NABCEP, formés OSHA-30 et membres de la SEIA. كل مشروع نحميه بضمان أداء لمدة 25 سنة مع مراقبة
+          عن بعد لضمان راحة عملائنا التامة.
         </p>
       </div>
 
