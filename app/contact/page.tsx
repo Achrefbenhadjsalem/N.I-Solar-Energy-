@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact | N.I Solar Energy",
@@ -39,62 +40,11 @@ export default function ContactPage() {
             </div>
           </dl>
         </div>
-        <form className="space-y-6">
-          <div>
-            <label htmlFor="name" className="text-sm font-semibold text-slate-700">
-              Nom complet
-            </label>
-            <input
-              id="name"
-              name="name"
-              className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="Ex. Jana Amrani"
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="text-sm font-semibold text-slate-700">
-              Email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="client@entreprise.com"
-            />
-          </div>
-          <div>
-            <label htmlFor="phone" className="text-sm font-semibold text-slate-700">
-              Téléphone
-            </label>
-            <input
-              id="phone"
-              name="phone"
-              className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="(555) 123-4567"
-            />
-          </div>
-          <div>
-            <label htmlFor="message" className="text-sm font-semibold text-slate-700">
-              Détails du projet / تفاصيل المشروع
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              className="mt-2 w-full rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-900 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100"
-              placeholder="Type de toit, usage mensuel, date cible..."
-            />
-          </div>
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">العربية • Français</p>
-          <button
-            type="submit"
-            className="w-full rounded-2xl bg-amber-500 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-amber-200/70 transition hover:bg-amber-600"
-          >
-            Envoyer la demande
-          </button>
-        </form>
+        <ContactForm />
       </div>
+      <p className="mt-4 text-center text-xs text-slate-500">
+        Les messages envoyés via ce formulaire sont redirigés automatiquement vers achrebenelhadjsalem11@gmail.com.
+      </p>
     </section>
   );
 }
