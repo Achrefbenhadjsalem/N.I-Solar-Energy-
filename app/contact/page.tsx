@@ -18,12 +18,16 @@ export default function ContactPage() {
           </p>
           <dl className="mt-8 space-y-6">
             <div>
-              <dt className="text-sm uppercase text-slate-500">Phone</dt>
-              <dd className="text-lg font-semibold text-slate-900">+1 (844) 555-0173</dd>
+              <dt className="text-sm uppercase text-slate-500">Téléphone</dt>
+              <dd className="text-lg font-semibold text-slate-900">+216 50 659 356</dd>
+            </div>
+            <div>
+              <dt className="text-sm uppercase text-slate-500">Téléphone 2</dt>
+              <dd className="text-lg font-semibold text-slate-900">+216 25 874 187</dd>
             </div>
             <div>
               <dt className="text-sm uppercase text-slate-500">Email</dt>
-              <dd className="text-lg font-semibold text-slate-900">bonjour@nisolar.energy</dd>
+              <dd className="text-lg font-semibold text-slate-900">contact.nisolarenergy@gmail.com</dd>
             </div>
             <div>
               <dt className="text-sm uppercase text-slate-500">Studio</dt>
