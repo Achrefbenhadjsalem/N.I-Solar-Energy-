@@ -35,7 +35,7 @@ export default function ContactPage() {
               <dd className="text-lg font-semibold text-slate-900">
                 Mahdia, 5111
                 <br />
-                San Luis Obispo, CA 93401
+                Disponible dans tout la Tunisie 
               </dd>
             </div>
           </dl>
