@@ -33,7 +33,7 @@ export default function ContactPage() {
             <div>
               <dt className="text-sm uppercase text-slate-500">Studio</dt>
               <dd className="text-lg font-semibold text-slate-900">
-                2470 Mission Street, Suite 305
+                Mahdia, 5111
                 <br />
                 San Luis Obispo, CA 93401
               </dd>
